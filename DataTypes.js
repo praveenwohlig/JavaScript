@@ -40,7 +40,6 @@
 // console.log(typeof myObj);
 // console.log(myObj.name);
 
-var add = 10
-add++
-console.log(add);
+console.log(Number.MAX_SAFE_INTEGER);
+
 

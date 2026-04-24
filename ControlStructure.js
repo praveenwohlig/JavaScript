@@ -33,7 +33,28 @@
 // }
 
 
-for (let i = 0; i <= 10; i++) {
-    console.log(`Counr: ${i}`);
+// for (let i = 0; i <= 10; i++) {
+//     console.log(`Counr: ${i}`);
 
-}
+// }
+// let i = 1;
+// while (i <= 5) {
+//     console.log("Hi");
+//     i++
+// }
+
+
+// let i = 1;
+// do {
+//     console.log("Hi Hello");
+//     i++
+
+// }
+// while (i <= 5) 
+
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(i);
+
+// }
+
