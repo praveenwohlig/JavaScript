@@ -1,11 +1,25 @@
-function User(name, tech) {
-    this.name = name,
-        this.tech = tech
+function Car(brand, speed) {
+    this.brand = brand;
+    this.speed = speed;
 }
 
-let user1 = User('Navin,', 'JS')
-let user2 = User('Pradeep', 'Python')
+Car.prototype.accelerate = function () {
+    this.speed += 10;
+};
 
-user2.tech = 'ADK'
+Car.prototype.brake = function () {
+    this.speed -= 5;
+};
 
-console.log(user2);
+Car.prototype.getStatus = function () {
+    return `${this.brand} running at ${this.speed} km/h`;
+};
+
+let c1 = new Car('BMW', 60);
+let c2 = new Car('Audi', 70);
+
+c1.accelerate();
+c2.brake();
+
+console.log(c1.getStatus());
+console.log(c2.getStatus());
